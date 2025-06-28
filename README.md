@@ -27,7 +27,7 @@ A full-stack task management application built with **React** (frontend) and **F
 ## 🛠️ Tech Stack
 
 ### Frontend
-- **React** - Modern React with Hooks
+- **React** - JavaScript library for UI
 - **Vite** - Fast build tool and development server
 - **Tailwind CSS** - Utility-first CSS framework
 - **Lucide React** - Beautiful SVG icons
@@ -94,26 +94,6 @@ Make sure you have the following installed:
 | `DELETE` | `/api/tasks/:id` | Delete a specific task |
 | `GET` | `/api/tasks/stats` | Get task statistics |
 | `DELETE` | `/api/tasks/cleanup` | Delete all completed tasks |
-
-## 🎨 Features in Detail
-
-### Task Priority System
-- **High Priority**: Red badge with urgent styling
-- **Medium Priority**: Yellow badge for moderate importance
-- **Low Priority**: Green badge for less urgent tasks
-
-### Due Date Management
-- Set optional due dates for tasks
-- Automatic detection of overdue tasks
-- Visual indicators for overdue items
-- Calendar icon for date display
-
-### Search and Filter
-- **Search**: Real-time text search across task names
-- **Filter Options**:
-  - **All**: Show all tasks
-  - **Active**: Show only incomplete tasks
-  - **Completed**: Show only finished tasks
 
 ### Statistics Dashboard
 Real-time counters showing:
