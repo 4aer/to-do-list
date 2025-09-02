@@ -21,7 +21,7 @@ A simple task management application built to learn **React** and **Flask**.
 ```bash
 # Create virtual environment
 python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
+venv/scripts/activate
 
 # Install dependencies
 pip install flask flask-cors
